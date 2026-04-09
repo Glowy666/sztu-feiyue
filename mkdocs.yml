@@ -1,8 +1,8 @@
 site_name: 深圳技术大学飞跃手册 (SZTU Feiyue)
 site_description: 汇聚深圳技术大学往届生留学、保研、考研、就业的经验分享网站。
-site_url: https://Glowy666.github.io/sztu-feiyue/
-repo_name: Glowy666/sztu-feiyue
-repo_url: https://github.com/Glowy666/sztu-feiyue
+site_url: https://yuan-head.github.io/sztu-feiyue/
+repo_name: yuan-head/sztu-feiyue
+repo_url: https://github.com/yuan-head/sztu-feiyue
 edit_uri: edit/main/docs/
 
 theme:
