@@ -50,4 +50,6 @@ nav:
   - 🛫 留学: liuxue/index.md
   - 📖 保研: baoyan/index.md
   - ✍️ 考研: kaoyan/index.md
-  - 💼 就业: jiuye/index.md
+  - 💼 就业: 
+      - 就业主页: jiuye/index.md
+      - 林伟源（某大厂研发）: jiuye/linweiyuan.md
