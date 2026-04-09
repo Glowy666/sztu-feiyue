@@ -1,0 +1,53 @@
+site_name: 深圳技术大学飞跃手册 (SZTU Feiyue)
+site_description: 汇聚深圳技术大学往届生留学、保研、考研、就业的经验分享网站。
+site_url: https://yuan-head.github.io/sztu-feiyue/
+repo_name: yuan-head/sztu-feiyue
+repo_url: https://github.com/yuan-head/sztu-feiyue
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗色模式
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: 切换到亮色模式
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+
+nav:
+  - 首页: index.md
+  - 🛫 留学: liuxue/index.md
+  - 📖 保研: baoyan/index.md
+  - ✍️ 考研: kaoyan/index.md
+  - 💼 就业: jiuye/index.md
